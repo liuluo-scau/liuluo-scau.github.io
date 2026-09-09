@@ -64,6 +64,22 @@ window.PUBLICATIONS = [
         ]     
     },
     {
+        "year": "2026",
+        "type": "journalArticle",
+        "authors": "Zeng Meiqi; Wu Wenxi; Yang Ran; Zhang Wanxin; Du Siya; Huang Xingzhi; Luo Liu",
+        "title": "TandemNet: A Multi-Scale Multiple-Instance Learning Framework for Early-Season Rice Yield Prediction",
+        "journal": "Remote Sensing",
+        "volume": "18",
+        "issue": "17",
+        "pages": "3040",
+        "doi": "10.3390/rs18173040",
+        "url": "https://www.mdpi.com/2072-4292/18/17/3040",
+        "language": "en",
+        "correspondingAuthors": [
+            "Luo Liu"
+        ]
+    },
+    {
         "year": "2025",
         "type": "journalArticle",
         "authors": "Liu Jiawen; Gao Huan; Jia Ruoyu; Wang Ran; Han Dongrui; Liu Luo; Xu Xinliang; Qiao Zhi",

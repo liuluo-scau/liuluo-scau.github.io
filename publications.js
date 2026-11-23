@@ -1,5 +1,53 @@
 window.PUBLICATIONS = [
     {
+        "year": "2027",
+        "type": "journalArticle",
+        "authors": "Chen Yinyin; Yang Guicheng; Xiong Xuheng; Li Can; Liu Luo; Li Jiufeng; Tang Xianzhe",
+        "title": "A novel framework for urban flood risk assessment integrating probabilistic hazard occurrence and urban environmental response",
+        "journal": "Water Research",
+        "volume": "308",
+        "issue": "",
+        "pages": "126929",
+        "doi": "10.1016/j.watres.2026.126929",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0043135426016015",
+        "language": "en",
+        "correspondingAuthors": [
+            "Tang Xianzhe"
+        ]
+    },
+    {
+        "year": "2027",
+        "type": "journalArticle",
+        "authors": "Liao Yixin; Huang Xiaoqi; Qin Yuanwei; Dong Jinwei; Wang Xue; Guo Shuwen; Xu Xinliang; Liu Zhenjie; Liu Luo",
+        "title": "Reconfiguring abandoned cropland for sustainable grain production within water and carbon constraints",
+        "journal": "Environmental Impact Assessment Review",
+        "volume": "123",
+        "issue": "",
+        "pages": "108829",
+        "doi": "10.1016/j.eiar.2026.108829",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0195925526005032",
+        "language": "en",
+        "correspondingAuthors": [
+            "Liu Luo"
+        ]
+    },
+    {
+        "year": "2027",
+        "type": "journalArticle",
+        "authors": "Yang Wenhao; Zuo Yifan; Lin Jieyong; Hu Jiantao; Yin Xiaju; Liu Zhenhua; Liu Luo; Zhang Yulong; Li Jiufeng; Tang Xianzhe",
+        "title": "Understanding morphological effects of green landscapes on watershed water quality across China",
+        "journal": "Water Research",
+        "volume": "309",
+        "issue": "",
+        "pages": "127288",
+        "doi": "10.1016/j.watres.2026.127288",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0043135426019597",
+        "language": "en",
+        "correspondingAuthors": [
+            "Li Jiufeng", "Tang Xianzhe"
+        ]
+    },
+    {
         "year": "2026",
         "type": "journalArticle",
         "authors": "Zhang Yongjian; Huang Xiaoqi; Kong Weilang; Liu Zhenjie; Liu Min; Liu Jialin; Hu Haoran; Liu Luo",
@@ -46,6 +94,22 @@ window.PUBLICATIONS = [
         "correspondingAuthors": [
             "Qiao Zhi"
         ]           
+    },
+    {
+        "year": "2026",
+        "type": "journalArticle",
+        "authors": "Qin Rui; Cao Shi; Liu Haifei; Lu Xia; Wu Huichao; Liu Luo",
+        "title": "Cropland Abandonment in Yiyang, China: Long-Term Landsat-Based Mapping and Regional Association Analysis",
+        "journal": "Land",
+        "volume": "15",
+        "issue": "11",
+        "pages": "2206",
+        "doi": "10.3390/land15112206",
+        "url": "https://www.mdpi.com/2073-445X/15/11/2206",
+        "language": "en",
+        "correspondingAuthors": [
+            "Liu Haifei"
+        ]
     },
     {
         "year": "2026",

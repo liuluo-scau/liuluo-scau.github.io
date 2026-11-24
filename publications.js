@@ -105,6 +105,8 @@ window.PUBLICATIONS = [
         "issue": "11",
         "pages": "2206",
         "doi": "10.3390/land15112206",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/land/land-15-02206/article_deploy/land-15-02206.pdf",
+        "pdfFile": "assets/10.3390-land15112206.pdf",
         "url": "https://www.mdpi.com/2073-445X/15/11/2206",
         "language": "en",
         "correspondingAuthors": [
@@ -137,6 +139,7 @@ window.PUBLICATIONS = [
         "issue": "17",
         "pages": "3040",
         "doi": "10.3390/rs18173040",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-03040/article_deploy/remotesensing-18-03040.pdf",
         "url": "https://www.mdpi.com/2072-4292/18/17/3040",
         "language": "en",
         "correspondingAuthors": [
@@ -185,6 +188,8 @@ window.PUBLICATIONS = [
         "issue": "10",
         "pages": "1783",
         "doi": "10.3390/rs17101783",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01783/article_deploy/remotesensing-17-01783.pdf",
+        "pdfFile": "assets/10.3390-rs17101783.pdf",
         "url": "https://www.mdpi.com/2072-4292/17/10/1783",
         "language": "en",
         "correspondingAuthors": [
@@ -217,6 +222,8 @@ window.PUBLICATIONS = [
         "issue": "8",
         "pages": "1347",
         "doi": "10.3390/rs17081347",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-01347/article_deploy/remotesensing-17-01347.pdf",
+        "pdfFile": "assets/10.3390-rs17081347.pdf",
         "url": "https://www.mdpi.com/2072-4292/17/8/1347",
         "language": "en",
         "correspondingAuthors": [
@@ -265,6 +272,8 @@ window.PUBLICATIONS = [
         "issue": "17",
         "pages": "3022",
         "doi": "10.3390/rs17173022",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-17-03022/article_deploy/remotesensing-17-03022.pdf",
+        "pdfFile": "assets/10.3390-rs17173022.pdf",
         "url": "https://www.mdpi.com/2072-4292/17/17/3022",
         "language": "en",
         "correspondingAuthors": [
@@ -326,6 +335,8 @@ window.PUBLICATIONS = [
         "issue": "1",
         "pages": "1143",
         "doi": "10.1038/s41597-024-03990-x",
+        "pdfUrl": "https://www.nature.com/articles/s41597-024-03990-x.pdf",
+        "pdfFile": "assets/10.1038-s41597-024-03990-x.pdf",
         "url": "https://www.nature.com/articles/s41597-024-03990-x",
         "language": "en",
         "correspondingAuthors": [
@@ -356,6 +367,8 @@ window.PUBLICATIONS = [
         "issue": "3",
         "pages": "67",
         "doi": "10.1007/s10980-024-01807-1",
+        "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10980-024-01807-1.pdf",
+        "pdfFile": "assets/10.1007-s10980-024-01807-1.pdf",
         "url": "https://link.springer.com/10.1007/s10980-024-01807-1",
         "language": "en",
         "correspondingAuthors": [
@@ -372,6 +385,8 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "104047",
         "doi": "10.1016/j.jag.2024.104047",
+        "pdfUrl": "https://par.nsf.gov/servlets/purl/10566658",
+        "pdfFile": "assets/10.1016-j.jag.2024.104047.pdf",
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1569843224004011",
         "language": "en",
         "correspondingAuthors": [
@@ -388,6 +403,8 @@ window.PUBLICATIONS = [
         "issue": "12",
         "pages": "2851",
         "doi": "10.3390/agronomy14122851",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/agronomy/agronomy-14-02851/article_deploy/agronomy-14-02851.pdf",
+        "pdfFile": "assets/10.3390-agronomy14122851.pdf",
         "url": "https://www.mdpi.com/2073-4395/14/12/2851",
         "language": "en",
         "correspondingAuthors": [
@@ -404,6 +421,8 @@ window.PUBLICATIONS = [
         "issue": "6",
         "pages": "949",
         "doi": "10.3390/rs16060949",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-16-00949/article_deploy/remotesensing-16-00949.pdf",
+        "pdfFile": "assets/10.3390-rs16060949.pdf",
         "url": "https://www.mdpi.com/2072-4292/16/6/949",
         "language": "en",
         "correspondingAuthors": [
@@ -420,6 +439,8 @@ window.PUBLICATIONS = [
         "issue": "2",
         "pages": "284",
         "doi": "10.3390/agronomy14020284",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/agronomy/agronomy-14-00284/article_deploy/agronomy-14-00284.pdf",
+        "pdfFile": "assets/10.3390-agronomy14020284.pdf",
         "url": "https://www.mdpi.com/2073-4395/14/2/284",
         "language": "en",
         "correspondingAuthors": [
@@ -475,6 +496,8 @@ window.PUBLICATIONS = [
         "issue": "1",
         "pages": "380",
         "doi": "10.1038/s43247-024-01547-9",
+        "pdfUrl": "https://www.nature.com/articles/s43247-024-01547-9.pdf",
+        "pdfFile": "assets/10.1038-s43247-024-01547-9.pdf",
         "url": "https://www.nature.com/articles/s43247-024-01547-9",
         "language": "en",
         "correspondingAuthors": [
@@ -517,6 +540,8 @@ window.PUBLICATIONS = [
         "issue": "9",
         "pages": "2231",
         "doi": "10.3390/rs15092231",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-15-02231/article_deploy/remotesensing-15-02231.pdf",
+        "pdfFile": "assets/10.3390-rs15092231.pdf",
         "url": "https://www.mdpi.com/2072-4292/15/9/2231",
         "language": "en",
         "correspondingAuthors": [
@@ -578,6 +603,8 @@ window.PUBLICATIONS = [
         "issue": "5",
         "pages": "285",
         "doi": "10.3390/drones7050285",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/drones/drones-07-00285/article_deploy/drones-07-00285.pdf",
+        "pdfFile": "assets/10.3390-drones7050285.pdf",
         "url": "https://www.mdpi.com/2504-446X/7/5/285",
         "language": "en",
         "correspondingAuthors": [
@@ -626,6 +653,8 @@ window.PUBLICATIONS = [
         "issue": "3",
         "pages": "669",
         "doi": "10.3390/rs15030669",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-15-00669/article_deploy/remotesensing-15-00669.pdf",
+        "pdfFile": "assets/10.3390-rs15030669.pdf",
         "url": "https://www.mdpi.com/2072-4292/15/3/669",
         "language": "en",
         "correspondingAuthors": [
@@ -671,6 +700,8 @@ window.PUBLICATIONS = [
         "issue": "10",
         "pages": "104038",
         "doi": "10.1088/1748-9326/acfc58",
+        "pdfUrl": "https://iopscience.iop.org/article/10.1088/1748-9326/acfc58/pdf",
+        "pdfFile": "assets/10.1088-1748-9326-acfc58.pdf",
         "url": "https://iopscience.iop.org/article/10.1088/1748-9326/acfc58",
         "language": "en"
     },
@@ -710,6 +741,8 @@ window.PUBLICATIONS = [
         "issue": "15",
         "pages": "7414",
         "doi": "10.3390/app12157414",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/applsci/applsci-12-07414/article_deploy/applsci-12-07414.pdf",
+        "pdfFile": "assets/10.3390-app12157414.pdf",
         "url": "https://www.mdpi.com/2076-3417/12/15/7414",
         "language": "en",
         "correspondingAuthors": [
@@ -726,6 +759,8 @@ window.PUBLICATIONS = [
         "issue": "15",
         "pages": "3562",
         "doi": "10.3390/rs14153562",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-03562/article_deploy/remotesensing-14-03562.pdf",
+        "pdfFile": "assets/10.3390-rs14153562.pdf",
         "url": "https://www.mdpi.com/2072-4292/14/15/3562",
         "language": "en",
         "correspondingAuthors": [
@@ -742,6 +777,8 @@ window.PUBLICATIONS = [
         "issue": "6",
         "pages": "1455",
         "doi": "10.3390/rs14061455",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-14-01455/article_deploy/remotesensing-14-01455.pdf",
+        "pdfFile": "assets/10.3390-rs14061455.pdf",
         "url": "https://www.mdpi.com/2072-4292/14/6/1455",
         "language": "en",
         "correspondingAuthors": [
@@ -758,6 +795,8 @@ window.PUBLICATIONS = [
         "issue": "2",
         "pages": "478",
         "doi": "10.3390/agronomy12020478",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/agronomy/agronomy-12-00478/article_deploy/agronomy-12-00478.pdf",
+        "pdfFile": "assets/10.3390-agronomy12020478.pdf",
         "url": "https://www.mdpi.com/2073-4395/12/2/478",
         "language": "en",
         "correspondingAuthors": [
@@ -774,6 +813,8 @@ window.PUBLICATIONS = [
         "issue": "11",
         "pages": "1129",
         "doi": "10.3390/agriculture11111129",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/agriculture/agriculture-11-01129/article_deploy/agriculture-11-01129.pdf",
+        "pdfFile": "assets/10.3390-agriculture11111129.pdf",
         "url": "https://www.mdpi.com/2077-0472/11/11/1129",
         "language": "en"
     },
@@ -787,6 +828,8 @@ window.PUBLICATIONS = [
         "issue": "1",
         "pages": "50",
         "doi": "10.3390/agriculture11010050",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/agriculture/agriculture-11-00050/article_deploy/agriculture-11-00050.pdf",
+        "pdfFile": "assets/10.3390-agriculture11010050.pdf",
         "url": "https://www.mdpi.com/2077-0472/11/1/50",
         "language": "en",
         "correspondingAuthors": [
@@ -816,6 +859,7 @@ window.PUBLICATIONS = [
         "issue": "6",
         "pages": "989-998",
         "doi": "10.13254/j.jare.2021.0545",
+        "pdfAccessUrl": "https://www.aed.org.cn/nyzyyhjxb/html/2021/6/20210606.htm",
         "url": "https://doi.org/10.13254/j.jare.2021.0545",
         "language": "zh-CN"
     },
@@ -829,6 +873,7 @@ window.PUBLICATIONS = [
         "issue": "6",
         "pages": "1020-1028",
         "doi": "10.13254/j.jare.2021.0608",
+        "pdfAccessUrl": "https://www.aed.org.cn/nyzyyhjxb/html/2021/6/20210609.htm",
         "url": "https://doi.org/10.13254/j.jare.2021.0608",
         "language": "zh-CN"
     },
@@ -842,6 +887,8 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "1-12",
         "doi": "10.1155/2020/8157143",
+        "pdfUrl": "https://pdfs.semanticscholar.org/ab69/d2d112bf302e53ba7edc945d8606e2a87561.pdf",
+        "pdfFile": "assets/10.1155-2020-8157143.pdf",
         "url": "https://www.hindawi.com/journals/complexity/2020/8157143/",
         "language": "en",
         "correspondingAuthors": [
@@ -858,6 +905,8 @@ window.PUBLICATIONS = [
         "issue": "1",
         "pages": "",
         "doi": "10.3390/su12010309",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/sustainability/sustainability-12-00309/article_deploy/sustainability-12-00309.pdf",
+        "pdfFile": "assets/10.3390-su12010309.pdf",
         "url": "",
         "language": ""
     },
@@ -916,6 +965,8 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "",
         "doi": "10.1155/2020/9326793",
+        "pdfUrl": "https://pdfs.semanticscholar.org/60ab/6a6049fc321c05239bc8fa02362088b5b6d1.pdf",
+        "pdfFile": "assets/10.1155-2020-9326793.pdf",
         "url": "",
         "language": ""
     },
@@ -974,6 +1025,8 @@ window.PUBLICATIONS = [
         "issue": "5",
         "pages": "794",
         "doi": "10.3390/rs12050794",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-12-00794/article_deploy/remotesensing-12-00794.pdf",
+        "pdfFile": "assets/10.3390-rs12050794.pdf",
         "url": "https://www.mdpi.com/2072-4292/12/5/794",
         "language": "en",
         "correspondingAuthors": [
@@ -985,6 +1038,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "熊曦柳; 胡月明; 文宁; 刘洛; 谢健文; 雷; 肖; 唐",
         "title": "耕地遥感识别研究进展与展望",
+        "pdfAccessUrl": "https://www.aed.org.cn/nyzyyhjxb/html/2020/6/20200606.htm",
         "journal": "农业资源与环境学报",
         "volume": "37",
         "issue": "06",
@@ -1016,6 +1070,8 @@ window.PUBLICATIONS = [
         "issue": "11",
         "pages": "",
         "doi": "10.3390/rs11111368",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-11-01368/article_deploy/remotesensing-11-01368.pdf",
+        "pdfFile": "assets/10.3390-rs11111368.pdf",
         "url": "",
         "language": ""
     },
@@ -1029,6 +1085,8 @@ window.PUBLICATIONS = [
         "issue": "14",
         "pages": "",
         "doi": "10.3390/su11143957",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/sustainability/sustainability-11-03957/article_deploy/sustainability-11-03957.pdf",
+        "pdfFile": "assets/10.3390-su11143957.pdf",
         "url": "",
         "language": ""
     },
@@ -1100,6 +1158,8 @@ window.PUBLICATIONS = [
         "issue": "7",
         "pages": "2570",
         "doi": "10.3390/su10072570",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/sustainability/sustainability-10-02570/article_deploy/sustainability-10-02570.pdf",
+        "pdfFile": "assets/10.3390-su10072570.pdf",
         "url": "http://www.mdpi.com/2071-1050/10/7/2570",
         "language": "en",
         "correspondingAuthors": [
@@ -1159,6 +1219,8 @@ window.PUBLICATIONS = [
         "issue": "5",
         "pages": "796",
         "doi": "10.3390/su9050796",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/sustainability/sustainability-09-00796/article_deploy/sustainability-09-00796.pdf",
+        "pdfFile": "assets/10.3390-su9050796.pdf",
         "url": "http://www.mdpi.com/2071-1050/9/5/796",
         "language": "en",
         "correspondingAuthors": [
@@ -1170,6 +1232,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "Xu Xinliang; Wang Liang; Sun Daowei; Liu Luo; Banson",
         "title": "The Impact of Climate Change on Yield Potential of Maize across China",
+        "pdfAccessUrl": "https://www.virascience.com/en/paper/the-impact-of-climate-change-on-yield-potential-of-maize-across-china/",
         "journal": "International Journal of Plant Production",
         "volume": "11",
         "issue": "1",
@@ -1222,6 +1285,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "赵小娟; 叶云; 周晋皓; 刘洛; 戴文举; 王秋香; 胡月明",
         "title": "珠三角丘陵区耕地质量综合评价及指标权重敏感性分析",
+        "pdfAccessUrl": "https://www.aeeisp.com/nygcxb/article/doi/10.11975/j.issn.1002-6819.2017.08.031",
         "journal": "农业工程学报",
         "volume": "33",
         "issue": "08",
@@ -1296,6 +1360,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "葛亚宁; 刘洛; 徐新良; 张学霞; 袁兰兰; 张晓峰",
         "title": "近50a气候变化背景下我国玉米生产潜力时空演变特征",
+        "pdfAccessUrl": "https://www.jnr.ac.cn/CN/10.11849/zrzyxb.2015.05.007",
         "journal": "自然资源学报",
         "volume": "30",
         "issue": "05",
@@ -1312,6 +1377,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "刘洛; 徐新良; 刘纪远; 陈曦; 宁佳",
         "title": "1990-2010年中国耕地变化对粮食生产潜力的影响",
+        "pdfAccessUrl": "https://www.geog.com.cn/CN/10.11821/dlxb201412003",
         "journal": "地理学报",
         "volume": "69",
         "issue": "12",
@@ -1333,6 +1399,8 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "1-10",
         "doi": "10.1155/2014/640320",
+        "pdfUrl": "https://pdfs.semanticscholar.org/7fd3/9af22ea0e0de191d8eaca6258732dd6a7591.pdf",
+        "pdfFile": "assets/10.1155-2014-640320.pdf",
         "url": "http://www.hindawi.com/journals/amete/2014/640320/",
         "language": "en",
         "correspondingAuthors": [
@@ -1349,6 +1417,8 @@ window.PUBLICATIONS = [
         "issue": "1",
         "pages": "96-110",
         "doi": "10.3390/su7010096",
+        "pdfUrl": "https://mdpi-res.com/d_attachment/sustainability/sustainability-07-00096/article_deploy/sustainability-07-00096.pdf",
+        "pdfFile": "assets/10.3390-su7010096.pdf",
         "url": "http://www.mdpi.com/2071-1050/7/1/96",
         "language": "en"
     },
@@ -1357,6 +1427,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "张晓峰; 王宏志; 刘洛; 徐新良",
         "title": "近50年来气候变化背景下中国大豆生产潜力时空演变特征",
+        "pdfAccessUrl": "https://www.progressingeography.com/CN/10.11820/dlkxjz.2014.00.013",
         "journal": "地理科学进展",
         "volume": "33",
         "issue": "10",
@@ -1378,6 +1449,8 @@ window.PUBLICATIONS = [
         "issue": "12",
         "pages": "e80990",
         "doi": "10.1371/journal.pone.0080990",
+        "pdfUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0080990&type=printable",
+        "pdfFile": "assets/10.1371-journal.pone.0080990.pdf",
         "url": "https://dx.plos.org/10.1371/journal.pone.0080990",
         "language": "en",
         "correspondingAuthors": [
@@ -1402,6 +1475,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "钟新科; 刘洛; 宋春桥; 徐新良; 游松财",
         "title": "1981年至2010年中国东北地区春玉米气候潜力时空变化分析",
+        "pdfAccessUrl": "https://www.resci.cn/CN/Y2012/V34/I11/2164",
         "journal": "资源科学",
         "volume": "34",
         "issue": "11",
@@ -1415,6 +1489,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "钟新科; 刘洛; 宋春桥; 游松财",
         "title": "基于气候适宜度评价的湖南春玉米优播期分析",
+        "pdfAccessUrl": "https://www.aeeisp.com/nygcxb/article/id/20121515",
         "journal": "中国农业气象",
         "volume": "33",
         "issue": "01",
@@ -1428,6 +1503,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "钟新科; 刘洛; 徐新良; 游松财",
         "title": "近30年中国玉米气候生产潜力时空变化特征",
+        "pdfAccessUrl": "https://zgnyqx.ieda.org.cn/CN/10.3969/j.issn.1000-6362.2012.01.012",
         "journal": "农业工程学报",
         "volume": "28",
         "issue": "15",
@@ -1441,6 +1517,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "郑凯迪; 徐新良; 张学霞; 刘洛",
         "title": "上海市城市空间扩展时空特征与预测分析",
+        "pdfAccessUrl": "https://www.dqxxkx.cn/CN/10.3724/SP.J.1047.2012.00490",
         "journal": "地球信息科学学报",
         "volume": "14",
         "issue": "04",
@@ -1467,6 +1544,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "刘洛; 徐新良; 段建南; 刘晓芳",
         "title": "京津风沙源区生态环境时空变化的遥感监测分析",
+        "pdfAccessUrl": "https://www.dqxxkx.cn/CN/10.3724/SP.J.1047.2011.00819",
         "journal": "地球信息科学学报",
         "volume": "13",
         "issue": "06",

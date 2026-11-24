@@ -8,6 +8,9 @@
     en: {
       doi: "DOI",
       source: "Source",
+      pdf: "PDF",
+      pdfAccess: "PDF via article page",
+      pdfAccessTitle: "Open the article page to access the PDF. An institutional login or subscription may be required.",
       journalArticle: "Journal Article",
       conferencePaper: "Conference Paper",
       volume: "Vol.",
@@ -17,6 +20,9 @@
     zh: {
       doi: "DOI",
       source: "来源",
+      pdf: "PDF 下载",
+      pdfAccess: "在论文页面获取 PDF",
+      pdfAccessTitle: "在论文页面打开 PDF，部分论文需要机构登录或订阅。",
       journalArticle: "期刊论文",
       conferencePaper: "会议论文",
       volume: "卷",
@@ -38,18 +44,19 @@
     return parts.join(" · ");
   }
 
-  function createLink(publication, lang) {
-    const href = publication.doi
+  function publicationUrl(publication) {
+    return publication.doi
       ? `https://doi.org/${publication.doi}`
       : publication.url || "";
-    if (!href) return null;
+  }
 
+  function createLink(href, label) {
     const link = document.createElement("a");
     link.className = "publication-link";
     link.href = href;
     link.target = "_blank";
     link.rel = "noreferrer";
-    link.textContent = publication.doi ? labels[lang].doi : labels[lang].source;
+    link.textContent = label;
     return link;
   }
 
@@ -157,8 +164,26 @@
           type.textContent = publicationType(publication.type, lang);
           footer.appendChild(type);
 
-          const link = createLink(publication, lang);
-          if (link) footer.appendChild(link);
+          const sourceUrl = publicationUrl(publication);
+          if (sourceUrl) {
+            const sourceLabel = publication.doi ? labels[lang].doi : labels[lang].source;
+            footer.appendChild(createLink(sourceUrl, sourceLabel));
+          }
+
+          const directPdf = publication.pdfFile || publication.pdfUrl;
+          const pdfHref = directPdf || publication.pdfAccessUrl || sourceUrl;
+          if (pdfHref) {
+            const pdfLabel = directPdf ? labels[lang].pdf : labels[lang].pdfAccess;
+            const pdfLink = createLink(pdfHref, pdfLabel);
+            pdfLink.classList.add("publication-pdf");
+            if (publication.pdfFile) {
+              pdfLink.removeAttribute("target");
+              pdfLink.setAttribute("download", "");
+            } else if (!directPdf) {
+              pdfLink.title = labels[lang].pdfAccessTitle;
+            }
+            footer.appendChild(pdfLink);
+          }
 
           item.appendChild(footer);
           orderedList.appendChild(item);

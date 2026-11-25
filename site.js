@@ -9,8 +9,6 @@
       doi: "DOI",
       source: "Source",
       pdf: "PDF",
-      pdfAccess: "PDF via article page",
-      pdfAccessTitle: "Open the article page to access the PDF. An institutional login or subscription may be required.",
       journalArticle: "Journal Article",
       conferencePaper: "Conference Paper",
       firstAuthorGroup: "First-Author Journal Articles",
@@ -25,8 +23,6 @@
       doi: "DOI",
       source: "来源",
       pdf: "PDF 下载",
-      pdfAccess: "在论文页面获取 PDF",
-      pdfAccessTitle: "在论文页面打开 PDF，部分论文需要机构登录或订阅。",
       journalArticle: "期刊论文",
       conferencePaper: "会议论文",
       firstAuthorGroup: "第一作者期刊论文",
@@ -56,7 +52,7 @@
   function publicationUrl(publication) {
     return publication.doi
       ? `https://doi.org/${publication.doi}`
-      : publication.url || "";
+      : publication.pdfAccessUrl || publication.url || "";
   }
 
   function createLink(href, label) {
@@ -195,18 +191,11 @@
             footer.appendChild(createLink(sourceUrl, sourceLabel));
           }
 
-          const directPdf = publication.pdfFile || publication.pdfUrl;
-          const pdfHref = directPdf || publication.pdfAccessUrl || sourceUrl;
-          if (pdfHref) {
-            const pdfLabel = directPdf ? labels[lang].pdf : labels[lang].pdfAccess;
-            const pdfLink = createLink(pdfHref, pdfLabel);
+          if (publication.pdfFile) {
+            const pdfLink = createLink(publication.pdfFile, labels[lang].pdf);
             pdfLink.classList.add("publication-pdf");
-            if (publication.pdfFile) {
-              pdfLink.removeAttribute("target");
-              pdfLink.setAttribute("download", "");
-            } else if (!directPdf) {
-              pdfLink.title = labels[lang].pdfAccessTitle;
-            }
+            pdfLink.removeAttribute("target");
+            pdfLink.setAttribute("download", "");
             footer.appendChild(pdfLink);
           }
 

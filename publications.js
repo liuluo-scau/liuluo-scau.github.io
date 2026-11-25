@@ -57,6 +57,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "13027-13043",
         "doi": "10.1109/JSTARS.2026.3662757",
+        "pdfFile": "assets/10.1109-jstars.2026.3662757.pdf",
         "url": "https://ieeexplore.ieee.org/document/11386663/",
         "language": "en",
         "correspondingAuthors": [
@@ -173,6 +174,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "14705-14717",
         "doi": "10.1109/JSTARS.2025.3573750",
+        "pdfFile": "assets/10.1109-jstars.2025.3573750.pdf",
         "url": "https://ieeexplore.ieee.org/document/11031092/",
         "language": "",
         "correspondingAuthors": [
@@ -559,6 +561,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "103504",
         "doi": "10.1016/j.jag.2023.103504",
+        "pdfFile": "assets/10.1016-j.jag.2023.103504.pdf",
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S156984322300328X",
         "language": "en",
         "correspondingAuthors": [
@@ -638,6 +641,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "116696",
         "doi": "10.1016/j.geoderma.2023.116696",
+        "pdfFile": "assets/10.1016-j.geoderma.2023.116696.pdf",
         "url": "https://www.sciencedirect.com/science/article/pii/S0016706123003737",
         "language": "en-US",
         "correspondingAuthors": [
@@ -672,6 +676,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "110700",
         "doi": "10.1016/j.ecolind.2023.110700",
+        "pdfFile": "assets/10.1016-j.ecolind.2023.110700.pdf",
         "url": "https://linkinghub.elsevier.com/retrieve/pii/S1470160X23008427",
         "language": "en",
         "correspondingAuthors": [
@@ -921,6 +926,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "",
         "doi": "10.1155/2020/6798958",
+        "pdfFile": "assets/10.1155-2020-6798958.pdf",
         "url": "",
         "language": ""
     },
@@ -997,6 +1003,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "5929-5937",
         "doi": "10.1109/JSTARS.2020.3025596",
+        "pdfFile": "assets/10.1109-jstars.2020.3025596.pdf",
         "url": "https://ieeexplore.ieee.org/document/9204441/",
         "language": "en",
         "correspondingAuthors": [
@@ -1013,6 +1020,7 @@ window.PUBLICATIONS = [
         "issue": "",
         "pages": "",
         "doi": "10.1155/2020/6829142",
+        "pdfFile": "assets/10.1155-2020-6829142.pdf",
         "url": "",
         "language": ""
     },
@@ -1361,6 +1369,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "葛亚宁; 刘洛; 徐新良; 张学霞; 袁兰兰; 张晓峰",
         "title": "近50a气候变化背景下我国玉米生产潜力时空演变特征",
+        "pdfFile": "assets/10.11849-zrzyxb.2015.05.007.pdf",
         "pdfAccessUrl": "https://www.jnr.ac.cn/CN/10.11849/zrzyxb.2015.05.007",
         "journal": "自然资源学报",
         "volume": "30",
@@ -1476,6 +1485,7 @@ window.PUBLICATIONS = [
         "type": "journalArticle",
         "authors": "钟新科; 刘洛; 宋春桥; 徐新良; 游松财",
         "title": "1981年至2010年中国东北地区春玉米气候潜力时空变化分析",
+        "pdfFile": "assets/resources-science-2012-34-11-2164.pdf",
         "pdfAccessUrl": "https://www.resci.cn/CN/Y2012/V34/I11/2164",
         "journal": "资源科学",
         "volume": "34",

@@ -13,6 +13,10 @@
       pdfAccessTitle: "Open the article page to access the PDF. An institutional login or subscription may be required.",
       journalArticle: "Journal Article",
       conferencePaper: "Conference Paper",
+      firstAuthorGroup: "First-Author Journal Articles",
+      correspondingAuthorGroup: "Corresponding-Author Journal Articles",
+      coauthorGroup: "Other Co-Authored Journal Articles",
+      conferenceGroup: "Conference Papers",
       volume: "Vol.",
       issue: "No.",
       pages: "Pages",
@@ -25,6 +29,10 @@
       pdfAccessTitle: "在论文页面打开 PDF，部分论文需要机构登录或订阅。",
       journalArticle: "期刊论文",
       conferencePaper: "会议论文",
+      firstAuthorGroup: "第一作者期刊论文",
+      correspondingAuthorGroup: "通讯作者期刊论文",
+      coauthorGroup: "其他合著期刊论文",
+      conferenceGroup: "会议论文",
       volume: "卷",
       issue: "期",
       pages: "页",
@@ -38,6 +46,7 @@
   function buildMeta(publication, lang) {
     const parts = [];
     if (publication.journal) parts.push(publication.journal);
+    if (publication.year) parts.push(publication.year);
     if (publication.volume) parts.push(`${labels[lang].volume} ${publication.volume}`);
     if (publication.issue) parts.push(`${labels[lang].issue} ${publication.issue}`);
     if (publication.pages) parts.push(`${labels[lang].pages} ${publication.pages}`);
@@ -79,15 +88,32 @@
     return new Set(authorList.map(normalizeAuthorName).filter(Boolean));
   }
 
+  function getAuthors(publication) {
+    return (publication.authors || "").split(";").map((author) => author.trim()).filter(Boolean);
+  }
+
+  function isCorrespondingAuthor(author, correspondingAuthors) {
+    return /\*+$/.test(author) || correspondingAuthors.has(normalizeAuthorName(author));
+  }
+
+  function publicationGroup(publication) {
+    if (publication.type === "conferencePaper") return "conferenceGroup";
+
+    const authors = getAuthors(publication);
+    if (isLiuLuo(authors[0])) return "firstAuthorGroup";
+    const correspondingAuthors = getCorrespondingAuthors(publication);
+    if (authors.some((author) => isLiuLuo(author) && isCorrespondingAuthor(author, correspondingAuthors))) {
+      return "correspondingAuthorGroup";
+    }
+    return "coauthorGroup";
+  }
+
   function renderAuthors(publication) {
     const container = document.createElement("p");
     container.className = "publication-authors";
 
     const correspondingAuthors = getCorrespondingAuthors(publication);
-    const authors = (publication.authors || "")
-      .split(";")
-      .map((author) => author.trim())
-      .filter(Boolean);
+    const authors = getAuthors(publication);
 
     authors.forEach((authorName, index) => {
       if (index > 0) container.appendChild(document.createTextNode("; "));
@@ -98,7 +124,7 @@
       author.textContent = cleanName;
       container.appendChild(author);
 
-      if (/\*+$/.test(authorName) || correspondingAuthors.has(normalizeAuthorName(cleanName))) {
+      if (isCorrespondingAuthor(authorName, correspondingAuthors)) {
         const marker = document.createElement("sup");
         marker.className = "corresponding-author";
         marker.textContent = "*";
@@ -120,27 +146,26 @@
 
     list.replaceChildren();
 
-    const byYear = publications.reduce((groups, publication) => {
-      const year = publication.year || "Unknown";
-      if (!groups.has(year)) groups.set(year, []);
-      groups.get(year).push(publication);
-      return groups;
-    }, new Map());
+    const groups = ["firstAuthorGroup", "correspondingAuthorGroup", "coauthorGroup", "conferenceGroup"];
+    const byRole = new Map(groups.map((role) => [role, []]));
+    [...publications].sort((a, b) => Number(b.year || 0) - Number(a.year || 0))
+      .forEach((publication) => byRole.get(publicationGroup(publication)).push(publication));
 
-    Array.from(byYear.keys())
-      .sort((a, b) => Number(b) - Number(a))
-      .forEach((year) => {
+    Array.from(byRole)
+      .forEach(([role, entries]) => {
+        if (!entries.length) return;
         const group = document.createElement("section");
-        group.className = "publication-year";
+        group.className = "publication-group";
 
         const heading = document.createElement("h3");
-        heading.textContent = year;
+        heading.textContent = labels[lang][role];
         group.appendChild(heading);
 
         const orderedList = document.createElement("ol");
         orderedList.className = "publication-items";
+        orderedList.reversed = true;
 
-        byYear.get(year).forEach((publication) => {
+        entries.forEach((publication) => {
           const item = document.createElement("li");
           item.className = "publication";
 

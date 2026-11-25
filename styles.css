@@ -413,7 +413,7 @@ h3 {
   gap: 36px;
 }
 
-.publication-year h3 {
+.publication-group h3 {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -421,7 +421,7 @@ h3 {
   color: var(--accent-2);
 }
 
-.publication-year h3::after {
+.publication-group h3::after {
   flex: 1;
   height: 2px;
   content: "";

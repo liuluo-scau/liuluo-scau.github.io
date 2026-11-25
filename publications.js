@@ -140,6 +140,7 @@ window.PUBLICATIONS = [
         "pages": "3040",
         "doi": "10.3390/rs18173040",
         "pdfUrl": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-18-03040/article_deploy/remotesensing-18-03040.pdf",
+        "pdfFile": "assets/10.3390-rs18173040.pdf",
         "url": "https://www.mdpi.com/2072-4292/18/17/3040",
         "language": "en",
         "correspondingAuthors": [
